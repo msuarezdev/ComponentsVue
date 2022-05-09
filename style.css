@@ -16,4 +16,22 @@
     color: #79f8ce;
     padding-top: 1rem;
     padding-bottom: 1rem;
+} 
+.tabla2__title{
+    text-align: center;
+    background-color: #CCA9DD;
+    color: #232323;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+th.tabla{
+    background-color: #cdcdcd;
+
+}
+.tabla3__title{
+    text-align: center;
+    background-color: #FDFD96;
+    color: #232323;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }

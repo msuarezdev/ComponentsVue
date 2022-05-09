@@ -11,23 +11,24 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
+</head>
 <body>
     <div id="app">
-
         <div class="container">   
             <h3 class="tabla1__title"> {{titulo}} </h3>
                 <tabla :titulos="tablaCripto.titulos" :registros="tablaCripto.registros">
-                
-                </tabla>
-        
-            <h3 class="tabla1__title"> {{titulo}} </h3>
-                <tabla :titulos="tablaCripto.titulos" :registros="tablaCripto.registros">
-        
+
                 </tabla>
 
-            <h3 class="tabla1__title"> {{titulo}} </h3>
-            <tabla :titulos="tablaCripto.titulos" :registros="tablaCripto.registros">
-        
+            <h3 class="tabla2__title"> {{titulo2}} </h3>
+                <tabla :titulos="tablaLenguajes.titulos" :registros="tablaLenguajes.registros"
+                class="tabla2">
+
+                </tabla>
+
+            <h3 class="tabla3__title"> {{titulo3}} </h3>
+            <tabla :titulos="tablaFrameworks.titulos" :registros="tablaFrameworks.registros" :class="tabla3" >
+
             </tabla>    
         </div>        
     </div>

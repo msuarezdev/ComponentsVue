@@ -2,12 +2,12 @@ Vue.component("tabla",{
     props:{
         titulos: {
             type: Array,
-            required: true
+            required: true,
         },
         registros:{
             type: Array,
-            required: true
-        }
+            required: true,
+        },
     },
     template:`
     <div class="table-responsive">
@@ -45,6 +45,34 @@ let app = new Vue({
             ]
         },
         titulo: "Diferencias entre criptomonedas",
+        titulo2: "Lenguajes de programación más populares",
+        tablaLenguajes:{
+            titulos:["Posición", "Lenguaje de programación", "Porcentaje de usuarios"],
+            registros:[
+                ["1", "Python", "27.16%"],
+                ["2", "C", "27.16%"],
+                ["3", "Java", "24.88%"],
+                ["4", "C++", "16.58%"],
+                ["5", "C#", "11.36%"],
+                ["6", "Visual Basic", "9.48%"],
+                ["7", "JavaScript", "4,20%"],
+                ["8", "Assembly language", "3.7%"],
+                ["9", "SQL", "3.6%"],
+                ["10", "Swift", "2.82%"],
+            ]
+        },
+        titulo3: "Mejores frameworks 2022 (Top 5)",
+        tablaFrameworks:{
+            titulos:["Puesto", "Framework", "Basado en:"],
+            registros:[
+                ["1", "Laravel", "PHP"],
+                ["2", "Django", "Phyton"],
+                ["3", "React", "Javascript"],
+                ["4", "Ruby on Rails", "Ruby"],
+                ["5", "Vue", "Javascript"],
+            ]
+        },
+        
     
     },
     method:{ 
