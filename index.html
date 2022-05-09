@@ -13,10 +13,23 @@
 </head>
 <body>
     <div id="app">
-        <tabla :titulos="tablaCripto.titulos" :registros="tablaCripto.registros">
 
-        </tabla>
+        <div class="container">   
+            <h3 class="tabla1__title"> {{titulo}} </h3>
+                <tabla :titulos="tablaCripto.titulos" :registros="tablaCripto.registros">
+                
+                </tabla>
+        
+            <h3 class="tabla1__title"> {{titulo}} </h3>
+                <tabla :titulos="tablaCripto.titulos" :registros="tablaCripto.registros">
+        
+                </tabla>
 
+            <h3 class="tabla1__title"> {{titulo}} </h3>
+            <tabla :titulos="tablaCripto.titulos" :registros="tablaCripto.registros">
+        
+            </tabla>    
+        </div>        
     </div>
 
 </body>

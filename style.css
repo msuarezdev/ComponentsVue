@@ -1,0 +1,19 @@
+.table-responsive{
+    margin-bottom: 2rem;
+}
+.table{
+    background-color: #2e2d2d;
+}
+.thead__color{
+ background-color: #79f8ce;
+}
+.colorText{
+    color: #F2F2F2;
+}
+.tabla1__title{
+    text-align: center;
+    background-color: #2e2d2d;
+    color: #79f8ce;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
